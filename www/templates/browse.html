@@ -1,0 +1,9 @@
+<ion-view view-title="Browse">
+  <ion-content ng-repeat="thing in things" class="list">
+    <a class="item item-thumbnail-left" href="#/app/band/{{thing.name}}">
+      <img src={{thing.img}}>
+      <h2>{{thing.album}}</h2>
+      <p>{{thing.name}}</p>
+    </a>
+  </ion-content>
+</ion-view>
